@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    color: blue;
+}
+
+.form-chat {
+    width: 25%;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.sub-form {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 30px;
+}
+
+#text-chat {
+    width: 70%;
+    border: 1px solid burlywood;
+}
+
+#send-mess {
+    width: 20%;
+    display: flex;
+}
+
+li {
+    width: 90%;
+    border: 1px solid bisque;
+    border-radius: 3px;
+    display: flex;
+    overflow: auto;
+}
